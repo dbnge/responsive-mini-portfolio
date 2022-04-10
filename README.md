@@ -15,12 +15,11 @@
 ## Features 
 + Responsive & compatible with all mobile devices
 + Animated CSS
-+ Developed with Mobile First methodology
 
-### Will be added soon: 
+### 🔜 Added soon: 
 + Darkmode
 
 ### Preview: 
 
-![]()
+![](/assets/images/Screenshot%202022-04-10%20at%2020.48.42.png)
 
