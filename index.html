@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Dominik Bunge</title>
+        <title>Dominik Bunge | Portfolio</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -67,19 +67,57 @@
 
                 <div class="profile__contact">
                     <div class="profile__contact-cv">
-                        <a href="" class="profile__contact-link">
+                        <a href="" class="profile__contact-link cv">
                             Watch CV
                             <i class="ri-eye-line"></i>
                         </a>
                     </div>
                     <div class="profile__contact-hello">
-                        <a href="" class="profile__contact-link">
+                        <a href="#" class="profile__contact-link hello">
                             Say Hello
                             <i class="ri-mail-send-line"></i>
                         </a>
                     </div>
                 </div>
 
+                <div class="profile__form hide">
+                    <form action="https://formsubmit.co/contact.bnge@gmail.com" method="POST" class="form">
+
+                        <div class="form__close">
+                            <a class="close__link" href="#">
+                                <i class="ri-close-line"></i>
+                            </a>
+                        </div>
+
+                        <div class="">
+                            <h3 class="form__title">
+                                Thanks for taking the time to reach out! <br> How can I help?
+                            </h3>
+                        </div>
+
+                        <div class="form__group-top">
+                            <div class="form__group">
+                                <input class="form__input" id="form__name" type="name" name="name" placeholder=" ">
+                                <label class="form__label" for="form__name">Your name</label>
+                            </div>
+                            <div class="form__group">
+                                <input class="form__input" id="form__name" type="email" name="email" placeholder=" ">
+                                <label class="form__label" for="form__name">Your email</label>
+                            </div>
+                        </div>
+
+                        <div class="form__group-mid">
+                            <textarea class="form__textarea" type="message" name="message" id="textarea" rows="5" placeholder=" "></textarea>
+                            <label class="form__label" for="textarea">Your message</label>
+                        </div>
+
+                        <div class="form__group-bottom">
+                            <input type="submit" value="Submit" class="form__submit">
+                        </div>
+                        
+                        
+                    </form>
+                </div>
             </div>
         </header>
         <!-- =============== MAIN =============== -->
@@ -110,7 +148,7 @@
                         <article class="projects__card">
                             <a href="" class="projects__link">
                                 <div class="project__border">
-                                    <img class="project__image admin" src="/assets/images/business-report.png" alt="">
+                                    <img class="project__image admin" src="/assets/images/dashboard.png" alt="">
                                 </div>
                                 <span class="projects__subtitle">
                                     Web
@@ -130,7 +168,7 @@
                                     <img class="project__image mario" src="/assets/images/super-mario.png" alt="">
                                 </div>
                                 <span class="projects__subtitle">
-                                    Web
+                                    Design
                                 </span>
                                 <h3 class="projects__title">
                                     2D Mario Kart <br> Animation
@@ -144,7 +182,7 @@
                                     <img class="project__image google" src="/assets/images/google.png" alt="">
                                 </div>
                                 <span class="projects__subtitle">
-                                    Web
+                                    Design
                                 </span>
                                 <h3 class="projects__title">
                                     Responsive Sign In Form <br> Google Style
@@ -237,8 +275,12 @@
                 Scroll reveal by <a href="https://scrollrevealjs.org/">scrollrevealjs.org</a>
             </span>
         </footer>
+        <!-- =============== OVERLAY =============== -->
+        <div class="overlay"></div>
         <!-- =============== SCROLLREVEAL JS =============== -->
         <script src="/assets/js/scrollreveal.min.js"></script>
+        <!-- =============== SEND EMAIL FROM JS =============== -->
+
         <!-- =============== MAIN JS =============== -->
         <script src="assets/js/main.js"></script>
     </body>
